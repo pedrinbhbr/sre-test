@@ -20,6 +20,7 @@ O arquivo compose.yaml cria os seguintes serviços:
 
 ## Executar
 Para colocar o ambiente em execução, rode o comando:
-docker compose --profile flower up --force-recreate --always-recreate-deps -d --remove-orphans
+
+**docker compose --profile flower up --force-recreate --always-recreate-deps -d --remove-orphans**
 
 **Os parâmetros --force-recreate, --always-recreate-deps e --remove-orphans não são necessários.**
